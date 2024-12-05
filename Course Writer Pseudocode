@@ -1,0 +1,35 @@
+Set SENTINEL to Q
+
+Display Instructions Main Menu
+    1 - Input Class Information
+    2 - Display Class Information
+    Q to Quit
+
+Prompt user for menu choice
+While menu choice is not equal to 1 or 2?
+    Is menu choice Q?
+        Display exit message
+        Exit program
+    Else    
+        Display Error Message
+        Prompt user for menu choice
+
+If user choice == 1
+    Display Instructions Class Input   
+        Input class information
+        Q to Quit
+
+    Open text file for Appending information
+    
+    Prompt user for class code
+    While class code does not match expected format
+        Is class code Q
+            Display exit message
+            Exit program
+        Else
+            Display error message
+            Prompt user for class code
+
+    (Repeat for each element of class information)
+
+    Append class information to file
